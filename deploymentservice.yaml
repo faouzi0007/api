@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: api:latest
+          image: faouzi0007/api:latest
           ports:
             - containerPort: 9000
           env:   # Setting Enviornmental Variables
